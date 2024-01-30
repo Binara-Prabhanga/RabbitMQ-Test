@@ -14,7 +14,7 @@ connect(rabbitMQUrl, (error, connection) => {
   // Create a channel
   connection.createChannel((channelError, channel) => {
     if (channelError) {
-      console.error('Error creating RabbitMQ channel:', channelError.message);
+      console.error('Error Creating RabbitMQ channel:', channelError.message);
       return;
     }
 
