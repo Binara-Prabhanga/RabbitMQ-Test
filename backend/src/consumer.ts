@@ -7,7 +7,7 @@ const rabbitMQUrl = 'amqp://localhost';
 // Set up RabbitMQ connection and channel for consuming
 connect(rabbitMQUrl, (error, connection) => {
   if (error) {
-    console.error('Error connecting to RabbitMQ:', error.message);
+    console.error('Error Connecting to RabbitMQ:', error.message);
     return;
   }
 
